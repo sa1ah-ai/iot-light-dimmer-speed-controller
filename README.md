@@ -1,12 +1,21 @@
 # IoT-based Light Dimmer and Speed Controller
 
-A complete IoT-enabled system for remotely controlling the brightness of lighting and the speed/direction of a stepper motor (e.g., for fan control), using Arduino, push buttons, LCD display, and a potentiometer.
+A robust, Arduino-powered IoT system for precise remote control of lighting and motor speed/direction, featuring real-time LCD feedback. Built, tested, and shared using the [Wokwi](https://wokwi.com/) simulator for maximum reproducibility and accessibility.
 
 ---
 
 ## Overview
 
 This project demonstrates how to design and implement an IoT-based light dimmer and speed controller using Arduino. Users can remotely and precisely adjust both light intensity and motor speed/direction via a physical interface, with all states clearly displayed on an LCD. The modular design makes the solution scalable and adaptable for smart home, industrial, or educational applications.
+
+---
+
+## Online Simulation ([Try it now!](https://wokwi.com/projects/412304916007617537))
+
+This project was fully developed and tested using the [Wokwi online Arduino simulator](https://wokwi.com/), making it easy for anyone to run, share, and experiment with the design—even without real hardware.
+
+- **[Open the project in Wokwi simulator](https://wokwi.com/projects/412304916007617537)**  
+- View, run, and modify the simulation instantly online.
 
 ---
 
@@ -17,6 +26,7 @@ This project demonstrates how to design and implement an IoT-based light dimmer 
 - **LCD Display:** Real-time feedback for all parameters (brightness %, speed %, motor mode).
 - **Energy Efficiency:** Fine-tuned control for optimized energy use.
 - **User-Friendly:** Three-button interface for intuitive operation.
+- **Cloud Simulation:** Open, run, and share via Wokwi without any hardware.
 
 ---
 
@@ -87,4 +97,3 @@ Add your LCD screenshots and result images in the `images/` folder.
   ![LCD Screenshot: Anticlockwise](images/lcd_example_anticw.png)
 
 ---
-
